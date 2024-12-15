@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ranking Musical</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Ranking Musical - Top 5</h1>
+        <ul id="ranking-list" class="ranking-list">
+            <!-- Las canciones se agregarán dinámicamente aquí -->
+        </ul>
+        <button id="shuffle-button" class="action-button">Mezclar Ranking</button>
+        <button id="create-image-button" class="action-button">Crear Imagen</button>
+        <div id="image-container"></div>
+        <a id="download-image-button" class="action-button" style="display: none;">Descargar Imagen</a>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
